@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>329, 17</value>
+  </metadata>
+  <metadata name="menuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>173, 17</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAUAEBAAAAEAIABoBAAAVgAAABgYAAABACAAiAkAAL4EAAAgIBAAAQAEAOgCAABGDgAAMDAAAAEA
+        IACoJQAALhEAACAgEAABAAQA6AIAANY2AAAoAAAAEAAAACAAAAABACAAAAAAAAAEAADDDgAAww4AAAAA
+        AAAAAAAAP/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z7/AP8+/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/0H/A/9S/xn/Uv8Z/0H/A/8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z7/AP9S/xn/2f/M/9n/zP9S/xn/Pv8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8+/wD/VP8c/+z/5f/s/+X/VP8c/z7/
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/Pv8A/1T/HP/s/+X/7P/l/1T/
+        HP8+/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z7/AP8+/wD/Pv8A/zz/AP9T/xz/6//l/+v/
+        5f9T/xz/PP8A/z7/AP8+/wD/Pv8A/z//AP8//wD/P/8A/0H/A/9S/xn/VP8c/1T/HP9T/xr/Z/81/+7/
+        6P/u/+j/Z/81/1P/Gv9U/xz/VP8c/1L/Gf9B/wP/P/8A/z7/AP9S/xn/2f/M/+3/5//s/+X/6//l/+7/
+        6P/9//z//f/8/+7/6P/r/+X/7P/l/+3/5//Z/8z/Uv8Z/z7/AP8+/wD/Uv8Z/9n/zP/t/+f/7P/l/+v/
+        5f/u/+j//f/8//3//P/u/+j/6//l/+z/5f/t/+f/2f/M/1L/Gf8+/wD/P/8A/0H/A/9S/xn/VP8c/1T/
+        HP9T/xr/Z/81/+7/6P/u/+j/Z/81/1P/Gv9U/xz/VP8c/1L/Gf9B/wP/P/8A/z//AP8//wD/Pv8A/z7/
+        AP8+/wD/PP8A/1P/HP/r/+X/6//l/1P/HP88/wD/Pv8A/z7/AP8+/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z7/AP9U/xz/7P/l/+z/5f9U/xz/Pv8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8+/wD/VP8c/+z/5f/s/+X/VP8c/z7/AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/Pv8A/1L/Gf/Z/8z/2f/M/1L/Gf8+/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP9B/wP/Uv8Z/1L/Gf9B/wP/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z7/AP8+/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAoAAAAGAAAADAAAAABACAAAAAAAAAJAADDDgAAww4AAAAAAAAAAAAAP/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8+/wD/Pv8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/0f/C/9Q/xb/UP8W/0f/
+        C/8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/Ov8A/5f/df/z//D/8//w/5f/df86/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/Ov8A/5//
+        gP///////////5//gP86/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/Ov8A/5//gP///////////5//gP86/wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/Ov8A/5//gP///////////5//gP86/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/Ov8A/5//gP///////////5//
+        gP86/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/Ov8A/5//gP///////////5//gP86/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/Nf8A/5z/
+        gP///////////5z/gP81/wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP9H/wv/l/91/5//gP+f/4D/n/+A/5//gP+f/4D/nP98/8//v////////////8//v/+c/3z/n/+A/5//
+        gP+f/4D/n/+A/5//gP+X/3X/R/8L/z//AP8//wD/P/8A/z7/AP9P/xb/7//p////////////////////
+        ///////////////////////////////////////////////////////////////////v/+n/T/8W/z7/
+        AP8//wD/P/8A/z7/AP9P/xb/7//p////////////////////////////////////////////////////
+        ///////////////////////////////////v/+n/T/8W/z7/AP8//wD/P/8A/z//AP9H/wv/l/91/5//
+        gP+f/4D/n/+A/5//gP+f/4D/nP98/8//v////////////8//v/+c/3z/n/+A/5//gP+f/4D/n/+A/5//
+        gP+X/3X/R/8L/z//AP8//wD/P/8A/z//AP8//wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/Nf8A/5z/
+        gP///////////5z/gP81/wD/Ov8A/zr/AP86/wD/Ov8A/zr/AP86/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/Ov8A/5//gP///////////5//gP86/wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/Ov8A/5//gP///////////5//gP86/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/Ov8A/5//gP///////////5//
+        gP86/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/Ov8A/5//gP///////////5//gP86/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/Ov8A/5//
+        gP///////////5//gP86/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/Ov8A/5f/df/z//D/8//w/5f/df86/wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/0f/C/9Q/xb/UP8W/0f/C/8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8+/wD/Pv8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAA
+        AABAAAAAAQAEAAAAAAAAAgAAww4AAMMOAAAQAAAAEAAAAD//AAD///8AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABERAAAAAAAAAAAA
+        AAAAAAAREQAAAAAAAAAAAAAAAAAAEREAAAAAAAAAAAAAAAAAABERAAAAAAAAAAAAAAAAAAAREQAAAAAA
+        AAAAAAAAAAAAEREAAAAAAAAAAAAAAAAAABERAAAAAAAAAAAAAAAAAAAREQAAAAAAAAAAAAAAAAAAEREA
+        AAAAAAAAAAAAAAAAABERAAAAAAAAAAAAERERERERERERERERAAAAABEREREREREREREREQAAAAARERER
+        EREREREREREAAAAAERERERERERERERERAAAAAAAAAAAAEREAAAAAAAAAAAAAAAAAABERAAAAAAAAAAAA
+        AAAAAAAREQAAAAAAAAAAAAAAAAAAEREAAAAAAAAAAAAAAAAAABERAAAAAAAAAAAAAAAAAAAREQAAAAAA
+        AAAAAAAAAAAAEREAAAAAAAAAAAAAAAAAABERAAAAAAAAAAAAAAAAAAAREQAAAAAAAAAAAAAAAAAAEREA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAKAAAADAAAABgAAAAAQAgAAAAAAAAJAAAww4AAMMOAAAAAAAAAAAAAD//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/Pv8A/zn/AP84/wD/OP8A/zj/AP84/wD/Of8A/z7/AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8+/wD/RP8H/1r/JP9g/yz/X/8r/1//K/9g/yz/Wv8k/0T/B/8+/wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP85/wD/Wv8k/8T/sf/k/9z/3//U/9//1P/k/9z/xP+x/1r/
+        JP85/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////
+        ////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//
+        1P//////////////////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP84/wD/X/8r/9//1P//////////////////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////////////3//U/1//K/84/wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////////////3//U/1//
+        K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////
+        ////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//
+        1P//////////////////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP84/wD/X/8r/9//1P//////////////////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////////////3//U/1//K/84/wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////////////3//U/1//
+        K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////
+        ////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//
+        1P//////////////////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/Pv8A/zn/AP84/wD/OP8A/zj/AP84/wD/OP8A/zj/AP84/wD/OP8A/zj/AP84/wD/OP8A/zj/
+        AP8x/wD/Wv8r/97/1P//////////////////////3v/U/1r/K/8x/wD/OP8A/zj/AP84/wD/OP8A/zj/
+        AP84/wD/OP8A/zj/AP84/wD/OP8A/zj/AP84/wD/Of8A/z7/AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8+/wD/RP8H/1r/JP9g/yz/X/8r/1//K/9f/yv/X/8r/1//K/9f/yv/X/8r/1//
+        K/9f/yv/X/8r/1//K/9a/yP/ev9O/+T/2///////////////////////5P/b/3r/Tv9a/yP/X/8r/1//
+        K/9f/yv/X/8r/1//K/9f/yv/X/8r/1//K/9f/yv/X/8r/1//K/9g/yz/Wv8k/0T/B/8+/wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP85/wD/Wv8k/8T/sf/k/9z/3//U/9//1P/f/9T/3//U/9//
+        1P/f/9T/3//U/9//1P/f/9T/3//U/9//1P/e/9P/5P/b//r/+P//////////////////////+v/4/+T/
+        2//e/9P/3//U/9//1P/f/9T/3//U/9//1P/f/9T/3//U/9//1P/f/9T/3//U/9//1P/k/9z/xP+x/1r/
+        JP85/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//
+        1P//////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP84/wD/X/8r/9//1P//////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////3//U/1//K/84/wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP85/wD/Wv8k/8T/sf/k/9z/3//U/9//1P/f/9T/3//U/9//
+        1P/f/9T/3//U/9//1P/f/9T/3//U/9//1P/e/9P/5P/b//r/+P//////////////////////+v/4/+T/
+        2//e/9P/3//U/9//1P/f/9T/3//U/9//1P/f/9T/3//U/9//1P/f/9T/3//U/9//1P/k/9z/xP+x/1r/
+        JP85/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8+/wD/RP8H/1r/JP9g/yz/X/8r/1//
+        K/9f/yv/X/8r/1//K/9f/yv/X/8r/1//K/9f/yv/X/8r/1//K/9a/yP/ev9O/+T/2///////////////
+        ////////5P/b/3r/Tv9a/yP/X/8r/1//K/9f/yv/X/8r/1//K/9f/yv/X/8r/1//K/9f/yv/X/8r/1//
+        K/9g/yz/Wv8k/0T/B/8+/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/Pv8A/zn/
+        AP84/wD/OP8A/zj/AP84/wD/OP8A/zj/AP84/wD/OP8A/zj/AP84/wD/OP8A/zj/AP8x/wD/Wv8r/97/
+        1P//////////////////////3v/U/1r/K/8x/wD/OP8A/zj/AP84/wD/OP8A/zj/AP84/wD/OP8A/zj/
+        AP84/wD/OP8A/zj/AP84/wD/Of8A/z7/AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP84/wD/X/8r/9//1P//////////////////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////////////3//U/1//K/84/wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////////////3//U/1//
+        K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////
+        ////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//
+        1P//////////////////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP84/wD/X/8r/9//1P//////////////////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////////////3//U/1//K/84/wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////////////3//U/1//
+        K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////
+        ////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP84/wD/X/8r/9//
+        1P//////////////////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP84/wD/X/8r/9//1P//////////////////////3//U/1//K/84/wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP84/wD/X/8r/9//1P//////////////////////3//U/1//K/84/wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP85/wD/Wv8k/8T/sf/k/9z/3//U/9//1P/k/9z/xP+x/1r/
+        JP85/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8+/wD/RP8H/1r/JP9g/yz/X/8r/1//
+        K/9g/yz/Wv8k/0T/B/8+/wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/Pv8A/zn/
+        AP84/wD/OP8A/zj/AP84/wD/Of8A/z7/AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/z//
+        AP8//wD/P/8A/z//AP8//wD/P/8A/z//AP8//wD/P/8A/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgA
+        AAAgAAAAQAAAAAEABAAAAAAAAAIAAMMOAADDDgAAEAAAABAAAAA//wAA////AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREQAAAAAA
+        AAAAAAAAAAAAEREAAAAAAAAAAAAAAAAAABERAAAAAAAAAAAAAAAAAAAREQAAAAAAAAAAAAAAAAAAEREA
+        AAAAAAAAAAAAAAAAABERAAAAAAAAAAAAAAAAAAAREQAAAAAAAAAAAAAAAAAAEREAAAAAAAAAAAAAAAAA
+        ABERAAAAAAAAAAAAAAAAAAAREQAAAAAAAAAAABEREREREREREREREQAAAAAREREREREREREREREAAAAA
+        ERERERERERERERERAAAAABEREREREREREREREQAAAAAAAAAAABERAAAAAAAAAAAAAAAAAAAREQAAAAAA
+        AAAAAAAAAAAAEREAAAAAAAAAAAAAAAAAABERAAAAAAAAAAAAAAAAAAAREQAAAAAAAAAAAAAAAAAAEREA
+        AAAAAAAAAAAAAAAAABERAAAAAAAAAAAAAAAAAAAREQAAAAAAAAAAAAAAAAAAEREAAAAAAAAAAAAAAAAA
+        ABERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>

@@ -1,0 +1,44 @@
+alle mitarbeiter
+select * 
+from employee;
+
+alle aktive aufenthalte
+select * 
+from hospitalization 
+where end is null;
+
+alle aktiven patienten
+select * 
+from patient, hospitalization 
+where patient.patientid = hospitalization.patientid and end is null;
+
+alle stationen
+select * 
+from station;
+
+alle räume
+select * 
+from room;
+
+von aufenthalt auf station und raum
+select hospitalization.roomid, room.stationid
+from hospitalization, station, room
+where hospitalization.roomid = room.roomid and
+      room.stationid = station.stationid and
+      hospitalization.hospitalizationid = <value>;
+
+patient hinzufügen
+insert into patient(name, surname, birthday) 
+values ('<vorname>', '<nachname>', '<datum>');			// sollte der patient schon vorhanden sein, wird er nicht gespeichert und ein fehler wird ausgelößt
+
+aufenthalt hinzufügen
+insert into hospitalization(patientid, roomid, doctorid, start, end, maxtemp, mintemp, maxsystolic, mindiastolic, maxbreathrate, minbreathrate)
+values (<patientid>, <roomid>, <doctorid>, <start>, null, <maxtemp>, <mintemp>, <mintemp>, <maxsystolic>, <mindiastolic>, <maxbreathrate>, <minbreathrate>);
+
+
+raum hizufügen
+station hinzufügen
+patient entlassen
+mitarbeiter hinzufügen
+mitarbeiter entlassen
+messung hinzufügen (ggf via trigger nachricht wenn nötig)

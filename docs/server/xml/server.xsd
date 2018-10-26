@@ -1,0 +1,40 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="stations">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="station" minOccurs="1" maxOccurs="5">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="employee" minOccurs="0" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="name"/>
+                                        <xs:element type="xs:string" name="forename"/>
+                                        <xs:element type="xs:string" name="email"/>
+                                        <xs:element type="xs:boolean" name="active"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="role"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="patient" minOccurs="0" maxOccurs="20">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="name"/>
+                                        <xs:element type="xs:string" name="forename"/>
+                                        <xs:element type="xs:date" name="birthday"/>
+                                        <xs:element type="xs:decimal" name="temperature"/>
+                                        <xs:element type="xs:integer" name="systolic"/>
+                                        <xs:element type="xs:integer" name="diastolic"/>
+                                        <xs:element type="xs:integer" name="breathingrate"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:byte" name="id"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="id"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

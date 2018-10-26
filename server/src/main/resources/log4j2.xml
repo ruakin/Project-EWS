@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+    <Properties>
+        <Property name="basePath">logs</Property>
+    </Properties>
+ 
+    <Appenders>
+        <RollingFile name="fileLogger" fileName="${basePath}/server-latest.log" filePattern="${basePath}/server-%d{yyyy-MM-dd}.log" immediateFlush="false" >
+            <PatternLayout>
+                <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1}::%M - %msg%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+            </Policies>
+        </RollingFile>
+ 
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout   pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1}::%M - %msg%n" />
+            <ThresholdFilter level="debug"/>
+        </Console>
+    </Appenders>
+    
+    <loggers>     
+        <root level="debug">
+            <appender-ref ref="console" level="info"/>
+            <appender-ref ref="fileLogger" level="info"/>
+        </root>    
+  </loggers>
+</Configuration>

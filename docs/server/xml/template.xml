@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations>
+    <station id="">
+        <employee role="">
+            <name></name>
+            <forename></forename>
+            <email></email>
+            <active></active>
+        </employee>
+        <patient id="0">
+            <name>Ification</name>
+            <forename>Test</forename>
+            <birthday>2001-01-01</birthday>
+            <temperature>11</temperature>
+            <systolic>1</systolic>
+            <diastolic>1</diastolic>
+            <breathingrate>1</breathingrate>
+        </patient>        
+    </station>  
+</stations>

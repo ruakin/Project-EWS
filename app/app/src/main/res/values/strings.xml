@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="ews">EWS</string>
+    <string name="textview">TextView</string>
+
+
+    <string name="station_prompt">Stationname</string>
+    <string-array name="station_array">
+        <item>Select station..</item>
+        <item>Abteilung A</item>
+        <item>Abteilung B</item>
+        <item>Abteilung C</item>
+        <item>Abteilung D</item>
+        <item>Abteilung E</item>
+    </string-array>
+</resources>

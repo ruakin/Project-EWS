@@ -1,0 +1,16 @@
+
+server/test\.db
+
+*.log
+
+*.properties
+
+*.tmp
+
+docs/server/~\$mmunication\.docx
+
+server/server\.sqlite3
+
+server/server\.sqlite3-journal
+
+*.bak
