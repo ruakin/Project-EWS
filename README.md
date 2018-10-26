@@ -1,4 +1,4 @@
-#Project EWS#
+#Project EWS
 
 Project EWS was an project at University of applied sciences Offenburg.
 
